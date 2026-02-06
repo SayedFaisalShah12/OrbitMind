@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import joblib
 import os
-from scripts.model import OrbitLSTM
-from scripts.preprocess import create_sequences
-import scripts.visualize as vis
+from model import OrbitLSTM
+from preprocess import create_sequences
+import visualize as vis
 
 def run_inference():
     print("\n--- Running Inference & Anomaly Detection ---")
